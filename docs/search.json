@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "slides.html#data-analysis-slide",
+    "href": "slides.html#data-analysis-slide",
+    "title": "Quarto Revealjs Customization",
+    "section": "Data Analysis Slide",
+    "text": "Data Analysis Slide\n\nGraphSummary TableData\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nclass\nAverage_disp\nStandard_deviation\n\n\n\n\n2seater\n6.160000\n0.5319774\n\n\ncompact\n2.325532\n0.4522735\n\n\nmidsize\n2.921951\n0.7185096\n\n\nminivan\n3.390909\n0.4526689\n\n\npickup\n4.418182\n0.8285735\n\n\nsubcompact\n2.660000\n1.1024571\n\n\nsuv\n4.456452\n1.0658055\n\n\n\n\n\n\n\n\n\n\n\n# A tibble: 6 × 11\n  manufacturer model displ  year   cyl trans      drv     cty   hwy fl    class \n  &lt;chr&gt;        &lt;chr&gt; &lt;dbl&gt; &lt;int&gt; &lt;int&gt; &lt;chr&gt;      &lt;chr&gt; &lt;int&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt; \n1 audi         a4      1.8  1999     4 auto(l5)   f        18    29 p     compa…\n2 audi         a4      1.8  1999     4 manual(m5) f        21    29 p     compa…\n3 audi         a4      2    2008     4 manual(m6) f        20    31 p     compa…\n4 audi         a4      2    2008     4 auto(av)   f        21    30 p     compa…\n5 audi         a4      2.8  1999     6 auto(l5)   f        16    26 p     compa…\n6 audi         a4      2.8  1999     6 manual(m5) f        18    26 p     compa…"
+  },
+  {
+    "objectID": "slides.html#modified-presentation-for-more-appealing-text",
+    "href": "slides.html#modified-presentation-for-more-appealing-text",
+    "title": "Quarto Revealjs Customization",
+    "section": "Modified Presentation for more appealing text",
+    "text": "Modified Presentation for more appealing text\n\nThis text is also used for self check.\nThe foundations of appealing presentation is to use more infographichs."
+  },
+  {
+    "objectID": "slides.html#section",
+    "href": "slides.html#section",
+    "title": "Quarto Revealjs Customization",
+    "section": "",
+    "text": "Thank You!\n\n\nAny Questions?"
+  }
+]

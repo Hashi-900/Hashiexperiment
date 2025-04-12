@@ -1,0 +1,10 @@
+---
+title: "Welcome"
+format: html
+---
+
+# Welcome!
+
+This is a Quarto site with my Revealjs slides.
+
+Click **Slides** in the navbar to see the presentation.

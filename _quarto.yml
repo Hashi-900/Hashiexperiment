@@ -1,0 +1,16 @@
+project:
+  type: website
+  output-dir: docs  # Important for GitHub Pages
+
+website:
+  title: "My Slide Site"
+  navbar:
+    left:
+      - href: slides.qmd
+        text: About
+      - href: slides.qmd
+        text: Slides
+
+format:
+  html:
+    theme: cosmo
