@@ -1,9 +1,11 @@
 ---
-title: "Welcome"
-format: html
+title: "Welcome To Muhammed Hashi Quarto Presentation Page"
+format: 
+  html :
+    theme: sandstone
 ---
 
-# Welcome!
+##  Welcome!
 
 This is a Quarto site with my Revealjs slides.
 
