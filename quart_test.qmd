@@ -67,6 +67,20 @@ flowchart TB
 :::
 :::
 
+## Modified Presentation for more appealing text
+
+-   This text is also used for self check.
+
+-   The foundations of appealing presentation is to use more infographichs.
+
+    ```{r}
+
+    mpg |> 
+      mutate(year = as.factor(year)) |> 
+      ggplot(aes(displ, hwy, color = year)) + geom_point()
+
+    ```
+
 ## 
 
 ::: r-stack
