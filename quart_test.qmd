@@ -6,7 +6,7 @@ format:
   revealjs:
     theme: sky
     highlight: pygments
-    center: true
+    #center: true
     slide-level: 3
     slide-number: c/t
     include-before-body: styles.html
@@ -65,6 +65,36 @@ flowchart TB
   C -->|Yes| E{Result}
 ```
 :::
+:::
+
+## Data Analysis Slide
+
+::: panel-tabset
+## Graph
+
+```{r}
+mpg |> 
+  ggplot(aes(displ, hwy, color = class)) + geom_point() +
+  geom_smooth(method = lm, se = FALSE) + facet_wrap(~class) +
+  theme(legend.position = 'none')
+```
+
+## Summary Table
+
+```{r}
+library(gt)
+mpg |> 
+  group_by(class) |> 
+  summarise(Average_disp = mean(displ),
+            Standard_deviation = sd(displ)) |> 
+  gt(id = 'two')
+```
+
+## Data
+
+```{r}
+head(mpg)
+```
 :::
 
 ## Modified Presentation for more appealing text
