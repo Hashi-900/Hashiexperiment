@@ -1,0 +1,9 @@
+<script>
+  Reveal.on('slidechanged', event => {
+    let title = event.currentSlide.querySelector("h2, h3");
+    let footer = document.querySelector(".reveal .footer");
+    if (title && footer) {
+      footer.innerHTML = title.innerText; // Update footer with slide title
+    }
+  });
+</script>

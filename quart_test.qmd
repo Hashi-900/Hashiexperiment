@@ -1,0 +1,89 @@
+---
+title: "Quarto Revealjs Customization"
+author: "Author's Name"
+date: "`r Sys.Date()`"
+format: 
+  revealjs:
+    theme: sky
+    highlight: pygments
+    center: true
+    slide-level: 3
+    slide-number: c/t
+    include-before-body: styles.html
+    css: styles.css
+    include-after-body: jave-script.html
+editor: visual
+---
+
+### Slide Title One
+
+Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+
+### Slide Title Two
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+### Slide Title Three
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+ print( 1 + 3)
+```
+
+### Slide Title Four
+
+```{r}
+library(tidyverse)
+
+mtcars |> 
+  ggplot(aes(mpg, wt)) + geom_point()
+```
+
+### Custom slide powerpoint
+
+::: columns
+::: {.column width="50%"}
+```{=html}
+<div class="text-box" style="height:200px">
+  <h4>Process Title</h4>
+  <h5>Detailed explanation</h5>
+  <p>List the main bullet-point explanations for the diagram.</p>
+</div>
+```
+:::
+
+::: {.column width="50%"}
+```{mermaid}
+flowchart TB
+  A[Start] --> B{Decision}
+  B -->|Yes| C[Action 1]
+  B -->|No| D[Action 2]
+  C -->|Yes| E{Result}
+```
+:::
+:::
+
+## 
+
+::: r-stack
+::: thank-you-slide
+<h1 class="thank-you-heading">
+
+Thank You!
+
+</h1>
+
+<h2 class="questions-prompt">
+
+Any Questions?
+
+</h2>
+
+::: animated-text
+:::
+:::
+:::
