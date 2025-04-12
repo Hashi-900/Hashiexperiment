@@ -23,8 +23,15 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome",
+    "title": "Welcome To Muhammed Hashi Quarto Presentation Page",
     "section": "",
-    "text": "Welcome!\nThis is a Quarto site with my Revealjs slides.\nClick Slides in the navbar to see the presentation."
+    "text": "This is a Quarto site with my Revealjs slides.\nClick Slides in the navbar to see the presentation."
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Welcome To Muhammed Hashi Quarto Presentation Page",
+    "section": "",
+    "text": "This is a Quarto site with my Revealjs slides.\nClick Slides in the navbar to see the presentation."
   }
 ]
