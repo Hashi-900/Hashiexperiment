@@ -19,5 +19,12 @@
     "title": "Quarto Revealjs Customization",
     "section": "",
     "text": "Thank You!\n\n\nAny Questions?"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Welcome!\nThis is a Quarto site with my Revealjs slides.\nClick Slides in the navbar to see the presentation."
   }
 ]

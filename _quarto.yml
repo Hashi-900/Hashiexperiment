@@ -6,7 +6,7 @@ website:
   title: "My Slide Site"
   navbar:
     left:
-      - href: slides.qmd
+      - href: index.qmd
         text: About
       - href: slides.qmd
         text: Slides
