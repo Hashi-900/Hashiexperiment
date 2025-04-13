@@ -2,7 +2,7 @@
 title: "Welcome To Muhammed Hashi Quarto Presentation Page"
 format: 
   html :
-    theme: sandstone
+    theme: moon
 ---
 
 ##  Welcome!

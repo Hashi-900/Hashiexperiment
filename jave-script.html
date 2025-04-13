@@ -1,9 +1,42 @@
 <script>
+  function toTitleCase(str) {
+    return str.replace(/\w\S*/g, function(word) {
+      return word.charAt(0).toUpperCase() + word.substr(1).toLowerCase();
+    });
+  }
+
   Reveal.on('slidechanged', event => {
-    let title = event.currentSlide.querySelector("h2, h3");
-    let footer = document.querySelector(".reveal .footer");
-    if (title && footer) {
-      footer.innerHTML = title.innerText; // Update footer with slide title
+    const footer = document.querySelector(".reveal .footer");
+
+    // If it's the title slide (first slide), use manual text
+    if (event.indexh === 0 && footer) {
+      footer.innerHTML = "Welcome to My Presentation";  // Your manual footer here
+    } else {
+      const title = event.currentSlide.querySelector("h2, h3");
+      if (title && footer) {
+        footer.innerHTML = toTitleCase(title.innerText); // Title Case conversion
+      }
+    }
+
+    // Optional styling
+    if (footer) {
+      footer.style.color = "#0077cc";       // Nice blue
+      footer.style.fontStyle = "normal";
+      footer.style.textTransform = "none";  // Make sure no CSS overrides it
+    }
+  });
+
+  // Also run on first load
+  document.addEventListener("DOMContentLoaded", () => {
+    const footer = document.querySelector(".reveal .footer");
+    const firstTitle = document.querySelector(".slides section h2, .slides section h3");
+
+    if (footer) {
+      footer.innerHTML = "Welcome to My Presentation"; // Same manual footer
+      footer.style.color = "#0077cc";
+      footer.style.fontStyle = "normal";
+      footer.style.textTransform = "none";
     }
   });
 </script>
+
