@@ -98,6 +98,14 @@ head(mpg)
 ```
 :::
 
+## Another title for playing with data
+
+- This part was added to playing with git functionality.
+- including functions that are necessary for both fetching from remote and local.
+- it will be the last fetched one.
+
+
+
 ## Modified Presentation for more appealing text
 
 -   This text is also used for self check.
