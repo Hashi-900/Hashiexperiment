@@ -102,7 +102,8 @@ head(mpg)
 
 - This part was added to playing with git functionality.
 - including functions that are necessary for both fetching from remote and local.
-- it will be the last fetched one.
+- it will be the last-fetched one.
+- The added slides should be colored.
 
 
 
