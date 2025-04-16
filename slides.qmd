@@ -39,12 +39,14 @@ When you click the **Render** button a presentation will be generated that inclu
 
 ```{r}
 library(tidyverse)
+library(plotly)
+library(gapminder)
 
 mtcars |> 
   ggplot(aes(mpg, wt)) + geom_point()
 ```
 
-### Custom slide powerpoint
+### Custom slide power point
 
 ::: columns
 ::: {.column width="50%"}
@@ -100,13 +102,34 @@ head(mpg)
 
 ## Another title for playing with data
 
-- This part was added to playing with git functionality.
-- including functions that are necessary for both fetching from remote and local.
-- it will be the last-fetched one.
-- The added slides should be colored.
-- One last time.
+-   This part was added to playing with git functionality.
+-   including functions that are necessary for both fetching from remote and local.
+-   it will be the last-fetched one.
+-   The added slides should be colored.
+-   One last time.
 
+## Adding the Interactive Visualization
 
+```{r}
+
+gapminder_one <- gapminder |> 
+  filter(year == 2007) |> 
+  mutate(gdpPercap = log(gdpPercap)) 
+  
+
+plot_ly(gapminder_one, 
+        y = ~lifeExp, 
+        x = ~gdpPercap, 
+        size = ~pop, 
+        color = ~continent) |> 
+  add_markers() |> 
+  layout(
+    title = "Life Expectancy vs GDP per Capita",
+    xaxis = list(title = "GDP per Capita"),
+    yaxis = list(title = "Life Expectancy")
+  )
+
+```
 
 ## Modified Presentation for more appealing text
 
