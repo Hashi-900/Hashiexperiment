@@ -33,5 +33,26 @@
     "title": "Welcome To Muhammed Hashi Quarto Presentation Page",
     "section": "",
     "text": "This is a Quarto site with my Revealjs slides.\nClick Slides in the navbar to see the presentation."
+  },
+  {
+    "objectID": "slides.html#another-title-for-playing-with-data",
+    "href": "slides.html#another-title-for-playing-with-data",
+    "title": "Quarto Revealjs Customization",
+    "section": "Another title for playing with data",
+    "text": "Another title for playing with data\n\nThis part was added to playing with git functionality.\nincluding functions that are necessary for both fetching from remote and local.\nit will be the last-fetched one.\nThe added slides should be colored.\nOne last time."
+  },
+  {
+    "objectID": "slides.html#adding-the-interactive-visualization",
+    "href": "slides.html#adding-the-interactive-visualization",
+    "title": "Quarto Revealjs Customization",
+    "section": "Adding the Interactive Visualization",
+    "text": "Adding the Interactive Visualization"
+  },
+  {
+    "objectID": "slides.html#another-title-for-playing-with-data-with-icons",
+    "href": "slides.html#another-title-for-playing-with-data-with-icons",
+    "title": "Quarto Revealjs Customization",
+    "section": "Another title for playing with data with icons",
+    "text": "Another title for playing with data with icons\n✅ This part was added to playing with git functionality.\n🔍 Including functions that are necessary for both fetching from remote and local.\n📈 it will be the last-fetched one.\n📉 The added slides should be colored.\n⚖️ One last time."
   }
 ]

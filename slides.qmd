@@ -100,13 +100,17 @@ head(mpg)
 ```
 :::
 
-## Another title for playing with data
+## Another title for playing with data with icons
 
--   This part was added to playing with git functionality.
--   including functions that are necessary for both fetching from remote and local.
--   it will be the last-fetched one.
--   The added slides should be colored.
--   One last time.
+✅ This part was added to playing with git functionality.
+
+🔍 Including functions that are necessary for both fetching from remote and local.
+
+📈 it will be the last-fetched one.
+
+📉 The added slides should be colored.
+
+⚖️ One last time.
 
 ## Adding the Interactive Visualization
 
