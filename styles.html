@@ -3,8 +3,8 @@
   .sidebar {
     background: linear-gradient(
       135deg, /* Diagonal from top-left to bottom-right */
-      #004687 50%,    /* Dark blue (top half) */
-      #00CCFF 50%     /* Strong blue (bottom half) */
+      #002F5C 50%,    /* Dark blue (top half) */
+     #00B3E6 50%     /* Strong blue (bottom half) */
     );
     color: white;
     padding: 2em 1.8em;
@@ -33,25 +33,26 @@
   .uni-line, .city-line {
     font-size: 1.3em;
     font-weight: bold;
-    line-height: 1.2;
+    line-height: 1.0;
   }
 
-   /* Vertical line - CHANGED (thicker + solid white) */
+
   .uol-logo::after {
-    content: "";
-    position: absolute;
-    right: -6px;
-    top: 0;
-    height: 30%;
-    width: 2px; /* CHANGED from 2.5px */
-    background: white; /* CHANGED from rgba(255,255,255,0.6) */
-  }
+  content: "";
+  position: absolute;
+  right: -8px;
+  top: -15px; /* Move it 10px higher */
+  height: calc(30% + 10px); /* Stretch it by same amount */
+  width: 2px;
+  background: white;
+}
+
 
   /* Humped top line - CHANGED (thicker + solid white) */
   .logo-decoration {
     position: absolute;
     right: -6px;
-    top: -5px;
+    top: -20px;
     width: calc(100% + 12px);
     height: 12px;
     overflow: visible;
@@ -69,12 +70,13 @@
     <div class="name-line">Carl von Ossietzky</div>
     <div class="uni-line">Universität</div>
     <div class="city-line">Oldenburg</div>
-    <svg class="logo-decoration" viewBox="0 0 200 20" preserveAspectRatio="none">
-      <!-- Humped line path (quadratic Bézier curve) -->
-     <path d="M0,10 Q100,0 200,10" 
-        stroke="white" /* CHANGED from rgba */
-        stroke-width="3" /* CHANGED from 3 */
-        fill="none" />
+    
+    <!-- Updated SVG for smoother, lower-attached hump line -->
+    <svg class="logo-decoration" viewBox="0 0 200 30" preserveAspectRatio="none">
+      <path d="M0,38 Q100,-4 200,14" 
+            stroke="white"
+            stroke-width="4"
+            fill="none" />
     </svg>
   </div>
 </div>
