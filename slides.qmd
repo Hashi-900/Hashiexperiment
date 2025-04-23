@@ -135,6 +135,19 @@ plot_ly(gapminder_one,
 
 ```
 
+## 📈 Macroeconomic indicators
+
+```{r}
+economics |> 
+  mutate(unemrate = unemploy/pop) |> 
+  pivot_longer(cols = c(unemrate, psavert, pce), names_to = "indicator",
+               values_to = "values") |> 
+  ggplot(aes(date, values, color = indicator)) +
+  geom_line() + facet_wrap(~indicator, scales = "free_y") +
+  scale_x_date() + theme_minimal()
+  
+```
+
 ## Modified Presentation for more appealing text
 
 -   This text is also used for self check.

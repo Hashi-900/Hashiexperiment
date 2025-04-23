@@ -54,5 +54,19 @@
     "title": "Quarto Revealjs Customization",
     "section": "Another title for playing with data with icons",
     "text": "Another title for playing with data with icons\n✅ This part was added to playing with git functionality.\n🔍 Including functions that are necessary for both fetching from remote and local.\n📈 it will be the last-fetched one.\n📉 The added slides should be colored.\n⚖️ One last time."
+  },
+  {
+    "objectID": "slides.html#microconomic-indicators",
+    "href": "slides.html#microconomic-indicators",
+    "title": "Quarto Revealjs Customization",
+    "section": "Microconomic indicators",
+    "text": "Microconomic indicators"
+  },
+  {
+    "objectID": "slides.html#macroconomic-indicators",
+    "href": "slides.html#macroconomic-indicators",
+    "title": "Quarto Revealjs Customization",
+    "section": "📈 Macroconomic indicators",
+    "text": "📈 Macroconomic indicators"
   }
 ]
